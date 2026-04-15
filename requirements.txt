@@ -1,0 +1,20 @@
+# The list of requirements for the virtual environment (Python==3.10).
+
+synapseclient==4.1.1      # To download the original PolypGen dataset
+python-dotenv==1.0.1      # To load local environment variables from .env
+torch==1.13.1             # Captum requires PyTorch 1.2.0 or higher; EndoFM-LV requires 1.13.1
+torchvision==0.14.1       # EndoFM-LV requires 0.14.1
+torchinfo==1.8.0
+pillow==10.0.1            # EndoFM-LV requires 10.0.1
+timm==0.9.7               # EndoFM-LV requires 0.9.7
+numpy==1.23.5
+pandas==1.5.3
+matplotlib==3.7.1
+seaborn==0.12.2           # For enhanced visualizations
+opencv-python==4.7.0.72
+einops==0.6.1
+scikit-learn==1.2.2
+tqdm==4.66.1
+captum==0.5.0             # Recommended version for compatibility with torch 1.13.1
+scikit-image==0.22.0      # Required for SLIC
+pytorchvideo==0.1.5       # Required for alternative architecture X3D
